@@ -47,7 +47,7 @@ h1{
 /*       Header Section      */ 
 /*****************************/
 header{
-    background: linear-gradient(#87509ca4,#87509ca4),url(img/portfolio-bg.jpg);
+    background: linear-gradient(#fbfcfda4,#f2f4f5a4),url(img/portfolio-bg.jpg);
     background-repeat: no-repeat;
     background-position: center-top;
     background-size: cover;
@@ -58,11 +58,20 @@ header{
 }
 /* logo design */
 .logo{
-    height: 30px;
+    
+    height: 100px;
     width: auto;
-    margin-top: 30px;
+    margin-top:-10px;
     float: left;
 
+}
+ .logo-title{
+    float: left;
+    margin-top: 30px;
+    margin-left: -33px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(23, 80, 117);
 }
 /* list customize */
 ul li{
@@ -71,40 +80,65 @@ ul li{
 }
 /* main nav design */
 .main-nav{
-    float: right;
+    
+    float: left;
     margin-top: 35px;
+    margin-left: 50px;
+    
  
 }
+
+.login a:link,
+.login a:visited{
+    margin-top: -30px;
+    float: left;
+    margin-left: 190px;
+    text-decoration:none;
+    background-color: rgb(68, 173, 173);
+    padding: 4px 10px;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bolder;
+    transition: .3s;
+    
+    
+}
+.login a:hover{
+    transform: scale(1.1);
+}
 .main-nav li{
+    
     display: inline-block;
     margin-left: 13px;
 
 }
 .main-nav li:first-child{
-    margin-left: 0;
+    margin-left: 190px;
 
 }
 .main-nav li a:link,
 .main-nav li a:visited{
-    color: #fff;
+    color: rgb(109, 106, 106);
     text-decoration: none;
-    text-transform: uppercase;
     background:rgba(100, 58, 122, 0);
     padding: 4px 10px;
     border-radius: 3px;
     display: inline-block;
-    font-size: 16px;
+    font-size: 14px;
     transition: .3s;
+    font-weight: bold;
 
 }
 
 .main-nav li:hover a:link,
 .main-nav li:hover a:visited{
-    background:rgba(100, 58, 122, 1);
+    background:rgb(68, 173, 173);
 }
+
 .active{
     border-radius: 3px;
-    background:rgba(100, 58, 122, 1);
+    background:rgb(68, 173, 173);
 }
 .hero-test-box{
     position: absolute;
@@ -113,10 +147,20 @@ ul li{
     transform: translate(-50%, -50%);
     text-align: center;
 }
+.hero-test-box h1{
+    color: #333;
+}
 .btn-hero:link,
 .btn-hero:visited{
-    background: teal;
+    background: rgb(68, 173, 173);
     border: rgba(0, 128, 128, 0.733);
     border-radius: 4px;
 
+}
+.shop{
+    float: left;
+    margin-left: 13px;
+    font-size: 20px;
+    color:rgb(68, 173, 173) ;
+    margin-top: 40px;
 }
