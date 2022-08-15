@@ -37,7 +37,7 @@ h1{
     padding: 10px 15px;
     border-radius: 3px;
     display: inline-block;
-    margin-top: 30px;
+    margin-top: 50px;
 
 
 }
@@ -46,7 +46,7 @@ h1{
 /*       Header Section      */ 
 /*****************************/
 header{
-    background: linear-gradient(white,white),url(../img/bc1.jpg);
+    background: linear-gradient(rgb(255, 255, 255),rgb(243, 239, 239)),url(../img/bc1.jpg);
     background-repeat: no-repeat;
     background-position: center-top;
     background-size: cover;
@@ -54,6 +54,9 @@ header{
     height: 100vh;
     position: relative;
 
+}
+.header2 {
+   
 }
 /* logo design */
 .logo{
@@ -143,7 +146,7 @@ ul li{
 .hero-test-box{
     float: left; 
     position: absolute;
-    top:200px;
+    top:180px;
     left: 150px;
     max-width: 350px;
     /*transform: translate(-50%, -20%);*/
@@ -182,7 +185,7 @@ ul li{
 .gif img{
     float:left;
     margin-left: 620px;
-    margin-top: 60px;
+    margin-top: 0px;
     width: 550px;
     height: auto;
     
@@ -194,6 +197,7 @@ ul li{
 
 }
 .pra2{
+    font-size: 14px;
     margin-top: 12px;
     color: rgb(109, 106, 106);
 }
@@ -208,20 +212,87 @@ ul li{
     transform: scale(.97);
 
 }
+.ligthmode{
+    margin-left: -20px;
+    color: white;
+}
 /* Element section */
 .element li:first-child{
     margin-left:0px;
 }
-.element li{
-    margin-left: 100px;
-    display: inline-block;
-}
+
 .element{
     float: left;
     margin-left: 40px;
-    margin-top: -60px; 
+    margin-top: -120px; 
     display: inline-block;
     font-size: 30px;
-    color: red; 
+    
    
+}
+.element  .e1, .e2, .e3, .e4{
+    display: inline-block;
+}
+.element .e1 i{
+    
+    font-size: 20px;
+    margin-left: 23px;
+    color: rgb(206, 116, 33);
+    background: rgb(253, 249, 249);
+    border-radius: 100%;
+    padding: 12px 10px 12px 15px;
+    box-shadow: 1px 1px 1px rgb(109, 106, 106);
+      
+}
+.element .e2 i{
+    
+    font-size: 20px;
+    margin-left: 57px;
+    color: rgb(221, 55, 26);
+    background: rgb(253, 249, 249);
+    border-radius: 100%;
+    padding: 12px 13px 12px 14px ;
+    box-shadow: 1px 1px 1px rgb(109, 106, 106);
+      
+}
+.element .e3 i{
+    
+    font-size: 20px;
+    margin-left: 57px;
+    color: rgb(20, 155, 61);
+    background: rgb(253, 249, 249);
+    border-radius: 100%;
+    padding: 12px 13px 12px 14px ;
+    box-shadow: 1px 1px 1px rgb(109, 106, 106);
+      
+}.element .e4 i{
+    
+    font-size: 20px;
+    margin-left: 60px;
+    color: rgb(14, 134, 155);
+    background: rgb(253, 249, 249);
+    border-radius: 100%;
+    padding: 12px 13px 12px 14px ;
+    box-shadow: 1px 1px 1px rgb(109, 106, 106);
+      
+}
+.element .e1 p{
+    margin-left: 0px;
+}
+.element .e2 p{
+    margin-left: 40px;
+}
+.element .e3 p{
+    margin-left: 25px;
+}
+.element .e4 p{
+    margin-left: 25px;
+}
+
+.element .e1, .e2, .e3, .e4 p{
+    font-size: 14px;
+    color: rgb(109, 106, 106);
+}
+.element p{
+    margin-top:5px
 }

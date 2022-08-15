@@ -27,14 +27,14 @@
 </head>
 <body>
     <!-- Start Header Section-->
-    <header>
+    <header class="header2">
         <nav class="raw">
             <a href="#">
                 <img class="logo" src="resources/css/img/download1.png" alt="boomdev">
                 <p class="logo-title">oomDevs</p>
             </a>
             <ul class="main-nav">
-                <li class="active"><a class="active2" href="" herf="#">Home</a></li>
+                <li class="active"><a class=" active2"  herf="#">Home</a></li>
                 <li><a href="" herf="#">Products</a></li>
                 <li><a href="" herf="#">Service</a></li>
                 <li><a href="" herf="#">Support</a></li>
@@ -43,8 +43,10 @@
             </ul>
             <i class="shop fa-solid fa-cart-shopping"></i>
             <p class="login">
-            <a href="#" >Singin</a>
-            <i class="dark-mod fa-solid fa-moon"></i>
+            <a href="#" >Login</a>
+            <i onclick="darkmode()" return false; class=" dark-mod fa-solid fa-moon"></i>
+            <i onclick="lightmode()" return false; class="ligthmode dark-mod fa-solid fa-moon"></i>
+            
             </p>
         </nav>
         <div class="raw">
@@ -63,15 +65,33 @@
             </div>
                    
             <div class="gif">
-                <img src="resources/img/gif2.gif" alt="#"> 
+                <img src="resources/img/gif1.gif" alt="#"> 
             </div>
             <div class="element">
-                <ul>
-                    <li><i class="fa-solid fa-file-pen"></i></li>
+               <!-- <ul>
+                    <li><i class="fa-solid fa-file-pen"></i>Creative Design</li>
                     <li><i class="fa-solid fa-bolt-lightning"></i></li>
                     <li><i class="fa-solid fa-file-pen"></i></li>
                     <li><i class="fa-solid fa-file-pen"></i></li>
-                </ul>
+                </ul>-->
+                <div class="e1">  
+                    <i class="fa-solid fa-file-pen"></i>
+                    <p>Creative Design</p> 
+                </div>
+                <div class="e2">  
+                    <i class="fa-solid fa-bolt-lightning"></i>
+                    <p>Fast Scalable</p> 
+                </div>
+                <div class="e3">  
+                    <i class="fa-solid fa-sliders"></i>
+                    <p>Highly Functional</p> 
+                </div>
+                <div class="e4">  
+                    <i class="fa-solid fa-user-group"></i>
+                    <p>Fast & Efficient Support</p> 
+                </div>
+
+
                 
             </div>
 
@@ -83,6 +103,7 @@
     <!-- end Header Section-->
     
    <!-- java script -->
+   <script src="resources/script/dark.js"></script>
    <script src="vendors/script/html5shiv.min.js"></script>
    <script src="vendors/script/respond.min.js"></script>
    <script src="vendors/script/selectivizr.min.js"></script>
