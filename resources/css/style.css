@@ -81,7 +81,7 @@ ul li{
 .main-nav{
     
     float: left;
-    margin-top: 35px;
+    margin-top: 40px;
     margin-left: 50px;
     
  
@@ -89,22 +89,21 @@ ul li{
 
 .login a:link,
 .login a:visited{
-    margin-top: 35px;
+    margin-top: 38px;
+    margin-left: 150px;
     float: left;
-    margin-left: 180px;
     text-decoration:none;
     background-color: rgb(68, 173, 173);
-    padding: 6px 18px;
+    padding: 6px 12px;
     border-radius: 40px;
     color: #fff;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bolder;
-    transition: .2s;
-    
-    
+    transition: .2s;  
 }
+
 .login a:hover{
-    transform: scale(.95);
+    transform: scale(.96);
 }
 .main-nav li{
     
@@ -174,8 +173,11 @@ ul li{
     float: left;
     margin-left: 30px;
     font-size: 20px;
-    color:rgb(68, 173, 173) ;
+    color:rgb(109, 106, 106);
     margin-top: 40px;
+}
+.shop:hover{
+    color: rgb(68, 173, 173); 
 }
 .gif img{
     float:left;
@@ -195,4 +197,31 @@ ul li{
     margin-top: 12px;
     color: rgb(109, 106, 106);
 }
+.dark-mod{
+    margin-top: 40px;
+    font-size: 25px;
+    margin-left: 15px;
+    color: rgb(109, 106, 106);
+    transition: .2s;
+}
+.dark-mod:hover{
+    transform: scale(.97);
 
+}
+/* Element section */
+.element li:first-child{
+    margin-left:0px;
+}
+.element li{
+    margin-left: 100px;
+    display: inline-block;
+}
+.element{
+    float: left;
+    margin-left: 40px;
+    margin-top: -60px; 
+    display: inline-block;
+    font-size: 30px;
+    color: red; 
+   
+}
