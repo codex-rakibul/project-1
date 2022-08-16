@@ -108,6 +108,12 @@ ul li{
 .login a:hover{
     transform: scale(.96);
 }
+.login i{
+
+    padding: 4px 4px;
+    margin-right: 5px; 
+
+}
 .main-nav li{
     
     display: inline-block;
@@ -119,10 +125,14 @@ ul li{
     
 
 }
+.main-nav .active{
+    font-weight: bolder;
+    color:rgb(68, 173, 173); 
+}
 .main-nav li .active2:link,
 .main-nav li .active2:visited{  
     
-    color:rgb(68, 173, 173);
+    color:rgb(68, 173, 173); 
     
 }
 .main-nav li a:link,
@@ -147,7 +157,7 @@ ul li{
     float: left; 
     position: absolute;
     top:180px;
-    left: 150px;
+    left: 420px;
     max-width: 350px;
     /*transform: translate(-50%, -20%);*/
     text-align: justify;
